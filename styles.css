@@ -1,3 +1,47 @@
+html {
+  min-block-size: 100%;
+}
+
 body {
-  background: orange;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: keep-all;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+header {
+  background-color: #f3eed9;
+}
+
+.quality_designs {
+  background-color: white;
+}
+
+.quality_designs h3 {
+  color: #824936;
+}
+
+.custom {
+  background-color: #222c2a;
+}
+
+.custom h3 {
+  color: #f3eed9;
+}
+
+.care {
+  background-color: #824936;
+}
+
+.care h3 {
+  color: #f3eed9;
 }
