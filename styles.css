@@ -18,7 +18,7 @@ body {
   align-items: center;
   text-align: center;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -40,12 +40,11 @@ header {
 
 h1,
 h3 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 900;
 }
 
-
-h3 { 
+h3 {
   font-size: 2.25rem;
 }
 
@@ -136,4 +135,119 @@ img {
 
 .care h3 {
   color: #f3eed9;
+}
+
+@media screen and (max-width: 50rem) {
+  body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    background-color: #f3eed9;
+    inline-size: 100%;
+    min-height: 25rem; /* 400px */
+    color: #824936;
+  }
+
+  h1,
+  h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 900;
+  }
+
+  h3 {
+    font-size: 1.625rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  header > h1 {
+    inline-size: 100%;
+    font-size: 2.25rem;
+    margin-top: 0rem;
+  }
+
+  header > p {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    margin-bottom: 0rem;
+  }
+
+  .quality_designs {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+    margin: 0 auto;
+    padding: 5% 7.5%;
+    inline-size: 100%;
+  }
+
+  .quality_designs h3 {
+    color: #824936;
+    margin-top: 0;
+  }
+
+  .quality_designs .paragraphs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 4rem;
+    text-align: left;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    margin: 0 auto;
+    padding: 5% 7.5%;
+    /* column-gap: 4rem; */
+  }
+
+  .verbiage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-self: flex-start;
+    color: white;
+    max-inline-size: 100%;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .verbiage > h3 {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    /* align-self: flex-start; */
+    inline-size: 100%;
+    outline: 0px solid;
+  }
+
+  .custom {
+    background-color: #222c2a;
+    inline-size: 100%;
+  }
+
+  .custom h3 {
+    color: #f3eed9;
+  }
+
+  .care {
+    background-color: #824936;
+    inline-size: 100%;
+  }
+
+  .care h3 {
+    color: #f3eed9;
+  }
 }
