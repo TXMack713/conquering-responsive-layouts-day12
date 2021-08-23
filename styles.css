@@ -145,7 +145,7 @@ body {
   }
 }
 
-@media sand (min-width: 37.5rem) {
+@media screen and (min-width: 37.5rem) {
   /* Desktop Layout */
   header {
     background-color: #f3eed9;
