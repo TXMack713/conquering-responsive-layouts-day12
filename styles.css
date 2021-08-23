@@ -120,10 +120,9 @@ body {
   }
 
   img {
+    max-inline-size: 100%;
     display: block;
-    /* align-self: flex-start; */
-    inline-size: 100%;
-    outline: 0px solid;
+    outline: 1px solid;
   }
 
   .custom {
@@ -236,7 +235,7 @@ body {
   img {
     align-self: flex-start;
     max-inline-size: 50%;
-    outline: 0px solid;
+    outline: 1px solid;
   }
 
   .custom {
